@@ -1,0 +1,66 @@
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# File: C:\intelFPGA_lite\20.1\lab_7seg\uart.csv
+# Generated on: Fri Sep 15 01:24:18 2023
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+clk,Input,PIN_Y2,2,B2_N0,3.3-V LVTTL,,,,,
+data_en,Input,PIN_M21,6,B6_N1,2.5 V,,,,,
+data_in[7],Input,PIN_AB26,5,B5_N1,2.5 V,,,,,
+data_in[6],Input,PIN_AD26,5,B5_N2,2.5 V,,,,,
+data_in[5],Input,PIN_AC26,5,B5_N2,2.5 V,,,,,
+data_in[4],Input,PIN_AB27,5,B5_N1,2.5 V,,,,,
+data_in[3],Input,PIN_AD27,5,B5_N2,2.5 V,,,,,
+data_in[2],Input,PIN_AC27,5,B5_N2,2.5 V,,,,,
+data_in[1],Input,PIN_AC28,5,B5_N2,2.5 V,,,,,
+data_in[0],Input,PIN_AB28,5,B5_N1,2.5 V,,,,,
+display_data_in[13],Output,PIN_AA14,3,B3_N0,3.3-V LVTTL,,,,,
+display_data_in[12],Output,PIN_AG18,4,B4_N2,3.3-V LVTTL,,,,,
+display_data_in[11],Output,PIN_AF17,4,B4_N2,3.3-V LVTTL,,,,,
+display_data_in[10],Output,PIN_AH17,4,B4_N2,3.3-V LVTTL,,,,,
+display_data_in[9],Output,PIN_AG17,4,B4_N2,3.3-V LVTTL,,,,,
+display_data_in[8],Output,PIN_AE17,4,B4_N2,3.3-V LVTTL,,,,,
+display_data_in[7],Output,PIN_AD17,4,B4_N2,3.3-V LVTTL,,,,,
+display_data_in[6],Output,PIN_AC17,4,B4_N2,3.3-V LVTTL,,,,,
+display_data_in[5],Output,PIN_AA15,4,B4_N2,3.3-V LVTTL,,,,,
+display_data_in[4],Output,PIN_AB15,4,B4_N2,3.3-V LVTTL,,,,,
+display_data_in[3],Output,PIN_AB17,4,B4_N1,3.3-V LVTTL,,,,,
+display_data_in[2],Output,PIN_AA16,4,B4_N2,3.3-V LVTTL,,,,,
+display_data_in[1],Output,PIN_AB16,4,B4_N2,3.3-V LVTTL,,,,,
+display_data_in[0],Output,PIN_AA17,4,B4_N1,3.3-V LVTTL,,,,,
+display_data_out[13],Output,PIN_U24,5,B5_N0,,,,,,
+display_data_out[12],Output,PIN_U23,5,B5_N1,,,,,,
+display_data_out[11],Output,PIN_W25,5,B5_N1,,,,,,
+display_data_out[10],Output,PIN_W22,5,B5_N0,,,,,,
+display_data_out[9],Output,PIN_W21,5,B5_N1,,,,,,
+display_data_out[8],Output,PIN_Y22,5,B5_N0,,,,,,
+display_data_out[7],Output,PIN_M24,6,B6_N2,,,,,,
+display_data_out[6],Output,PIN_H22,6,B6_N0,,,,,,
+display_data_out[5],Output,PIN_J22,6,B6_N0,,,,,,
+display_data_out[4],Output,PIN_L25,6,B6_N1,,,,,,
+display_data_out[3],Output,PIN_L26,6,B6_N1,,,,,,
+display_data_out[2],Output,PIN_E17,7,B7_N2,,,,,,
+display_data_out[1],Output,PIN_F22,7,B7_N0,,,,,,
+display_data_out[0],Output,PIN_G18,7,B7_N2,,,,,,
+ready,Output,PIN_E22,7,B7_N0,2.5 V,,,,,
+ready_clr,Input,PIN_N21,6,B6_N2,2.5 V,,,,,
+rstn,Input,PIN_M23,6,B6_N2,2.5 V,,,,,
+rx,Input,PIN_AC15,4,B4_N2,3.3-V LVTTL,,,,,
+tx,Output,PIN_AB22,4,B4_N0,3.3-V LVTTL,,,,,
+tx_busy,Output,PIN_E21,7,B7_N0,2.5 V,,,,,
